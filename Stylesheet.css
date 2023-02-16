@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    display: flex;
+    flex:1;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content:space-around;
+    
+   
+}
+.box2{
+    display: flex;
+    flex:1;
+    border: 2px solid black;
+    flex-direction: row;
+}
+img{
+    width: 50%;
+    height: 50%;
+}

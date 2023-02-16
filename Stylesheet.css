@@ -1,23 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
-    display: flex;
+    display: grid;
     flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+  
+    
 }
 .box1{
-    display: flex;
-    flex:1;
-    border: 2px solid black;
-    flex-direction: row;
-    justify-content:space-around;
-    
-   
+    background-color:bisque ;
+    padding:5vh;
+    padding: 5vw;
+    border: 10px solid cadetblue;
+    text-align: center;
 }
 .box2{
-    display: flex;
-    flex:1;
-    border: 2px solid black;
-    flex-direction: row;
+    background-color:rgb(223, 145, 51) ;
+    padding:5vh;
+    padding: 5vw;
+    border: 10px solid cadetblue;
+    text-align: center;
+
 }
-img{
-    width: 50%;
-    height: 50%;
-}
+
+    

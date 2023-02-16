@@ -3,26 +3,19 @@ body{
     padding: 0;
 }
 .container{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr;
-  
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 .box1{
-    background-color:bisque ;
-    padding:5vh;
-    padding: 5vw;
-    border: 10px solid cadetblue;
-    text-align: center;
+    flex:50%;
+    background-color: rgb(147, 104, 208);
 }
 .box2{
     background-color:rgb(223, 145, 51) ;
-    padding:5vh;
-    padding: 5vw;
-    border: 10px solid cadetblue;
-    text-align: center;
+    flex: 50%;
+
+}
+h1{   font-size:10vw;
 
 }
 
-    
